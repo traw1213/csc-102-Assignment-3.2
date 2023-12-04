@@ -1,0 +1,53 @@
+body {
+    background: linear-gradient(to bottom, #f0f4f7, #0690e0); /* Unified gradient from light blue at the top to a darker blue at the bottom */
+    font-family: Arial, sans-serif; /* Standard font for better readability */
+    text-align: center; /* Center-aligning all content */
+    margin: 0; /* Remove default margin */
+    padding: 20px; /* Padding around the body content */
+    height: 100vh; /* Make the body take the full height of the viewport */
+}
+
+header {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px; /* Space below the header */
+}
+
+#inputForm {
+    margin: 0 auto;
+    width: 300px; /* Width of the form */
+}
+
+input[type="text"] {
+    width: 100%; /* Full width of the parent container */
+    padding: 8px; /* Padding inside the input boxes */
+    margin: 10px 0; /* Margin between input boxes */
+    border-radius: 4px; /* Rounded borders for input boxes */
+    border: 1px solid #ccc; /* Border color */
+}
+
+button {
+    background-color: #4CAF50; /* Green background for the button */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer; /* Cursor changes to pointer on hover */
+}
+
+button:hover {
+    background-color: #45a049; /* Slightly darker green on hover */
+}
+
+#message {
+    margin-top: 20px;
+    color: #d9534f; /* Color for the message */
+    text-align: center; /* Center-align text */
+}
+
+#warningImage {
+    display: block; /* Change display to block to apply margin auto */
+    margin: 20px auto; /* Top and bottom margin of 20px, and auto margin on the sides to center */
+    max-width: 100%; /* Ensures the image is responsive and doesn't overflow the screen width */
+}
+
